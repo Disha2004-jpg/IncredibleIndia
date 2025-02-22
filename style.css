@@ -1,0 +1,429 @@
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    background: url('images/indian-flag.jpg') no-repeat center center/cover;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+/* 🌍 General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 🔥 Hero Section */
+.hero {
+    width: 100%;
+    height: 500px;
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 12px 25px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hero .btn:hover {
+    background: #e65c00;
+}
+
+/* 🌆 Cities Section */
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* 📍 City Grid */
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.city-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.city-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.city-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6600;
+}
+
+/* Hover Effect */
+.city-card:hover {
+    transform: scale(1.05);
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+    .city-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* 🌆 Pune Page - Hero Section */
+.pune-hero {
+    width: 100%;
+    height: 400px;
+    background: url('images/pune-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.pune-hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.pune-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.pune-hero .btn {
+    padding: 12px 25px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.pune-hero .btn:hover {
+    background: #e65c00;
+}
+
+/* 📍 Pune Places Grid */
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.place-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.place-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.place-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.place-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* Hover Effect */
+.place-card:hover {
+    transform: scale(1.05);
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* 🌆 Mumbai Page - Hero Section */
+.mumbai-hero {
+    width: 100%;
+    height: 400px;
+    background: url('images/mumbai-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.mumbai-hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.mumbai-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.mumbai-hero .btn {
+    padding: 12px 25px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.mumbai-hero .btn:hover {
+    background: #e65c00;
+}
+
+/* 📍 Mumbai Places Grid */
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.place-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.place-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.place-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.place-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* Hover Effect */
+.place-card:hover {
+    transform: scale(1.05);
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+    .places-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* 🌴 Kerala Page - Hero Section */
+.kerala-hero {
+    width: 100%;
+    height: 400px;
+    background: url('images/kerala-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.kerala-hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.kerala-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.kerala-hero .btn {
+    padding: 12px 25px;
+    background: #008000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.kerala-hero .btn:hover {
+    background: #006400;
+}
+
+/* 📍 Kerala Places Grid */
+.activities-grid, .places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.place-card, .activity-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.place-card img, .activity-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.place-card:hover, .activity-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .places-grid, .activities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* 🌴 delhi Page - Hero Section */
+.delhi-hero {
+    width: 100%;
+    height: 400px;
+    background: url('images/delhi-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.delhi-hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.delhi-hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.delhi-hero .btn {
+    padding: 12px 25px;
+    background: #008000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.delhi-hero .btn:hover {
+    background: #006400;
+}
+
+/* 📍 Delhi Places Grid */
+.activities-grid, .places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.place-card, .activity-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.place-card img, .activity-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.place-card:hover, .activity-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .places-grid, .activities-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
